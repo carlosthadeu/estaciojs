@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="./css/estaciojs.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <script src="./js/jquery-3.3.1.js"></script>
+        <script src="./js/vendas.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="icone">			
+				<i class="fas fa-user-tie"></i>
+            </div>
+            	
+			<form id="logonForm" action="./acesso.html" onsubmit="return login()"  method="post">
+                <label for="email">Email</label>
+				<input type="text" id="edtmail" class="caixas" name="email" placeholder="e-mail">
+                <br>
+                <label for="senha">Senha</label>
+				<input type="password" id="edtpwd" class="caixas" name="senha" placeholder="senha">	
+				<br>
+				<br>
+				<input type="submit" value="login">
+				<button class="esqueci">esqueci minha senha</button>
+            </form>
+            <div id="erro"></div>
+        </div>	
+        <script>
+            (function(){
+            iniciarJsonSenhas();
+            })();
+        </script>
+	</body>
+</html>

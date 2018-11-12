@@ -1,0 +1,32 @@
+
+.procurar-cliente{
+	width:40%;
+	margin-right:1%; 
+}
+.tabe{
+	width: 15%;
+	margin:5px; 
+	display: inline-block; 
+	clear: both;
+}
+.tabe input {
+	width:90%;
+	padding:3%; 
+}
+#tabela{
+	margin-top:15px; 
+	width:100% 
+}
+#tabela th{
+	color:rgb(200,200,200);
+	padding:1%;
+	background-color: rgb(60,60,60);
+	text-align:left; 
+}
+#tabela td{
+	padding:1%; 
+	background-color:rgb(150,150,150);
+}
+#botoes{
+	margin:5px 2px; 
+}
